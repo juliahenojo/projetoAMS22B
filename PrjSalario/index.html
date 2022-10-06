@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+
+        <h1>
+          Quantidade de Horas, valor, gratificação
+        </h1>
+         <form action="calc.php" method="post"> 
+             <label for="txtQntidade">  
+                 Quantidade de horas 
+             </label>
+             <br>
+             <input type="text" name="txtQntidade" id="tQntidade"
+             size="10" maxlength="5" placeholder="Qntidade" required>
+             <br>
+
+             <label for=tValor>
+                 Valor da Hora 
+             </label>
+             <br>
+             <input type="text" name="txtValor" id="tValor"
+             size="10" maxlength="5" placeholder="Valor" required>  
+               <br>
+                
+
+             <label for=tGratificacao>
+                  Gratificação: 
+             </label>
+               <br>
+             <input type="text" name="txtGratificacao" id="tGratificação"
+              size="10" maxlength="5" placeholder="gratificação" required>
+            <br>
+            <br>
+
+             <input type="submit" value="Enviar">      
+             <input type="reset" value="Cancelar">  
+         </form>
+    </div>
+</body>
+</html>
